@@ -100,7 +100,7 @@ main {
 /* Título principal */
 h1 {
   font-size: 3.5rem;
-  color: var(--primaria);
+  color: var(--claro);
   font-weight: bold;
   margin: 20px;
 }
