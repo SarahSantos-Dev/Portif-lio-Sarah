@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarah | Contatos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navegacao">
+      <ul class="menu">
+        <li><a href="index.html" class="menu-link">Início</a></li>
+        <li><a href="sobre.html" class="menu-link">Sobre</a></li>
+        <li><a href="projetos.html" class="menu-link">Projetos</a></li>
+        <li><a href="contatos.html" class="menu-link">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <!-- Seção de contato com formulário -->
+  <section id="contatos" class="contatos">
+    <h2 class="contatos-titulo">Entre em contato</h2>
+    <form class="contatos-mensagem" onsubmit="enviarWhatsApp(event)">
+      <input
+        type="text"
+        placeholder="Nome"
+        class="campo-form"
+        id="nome"
+      />
+            <!-- Campo para mensagem -->
+      <textarea
+        placeholder="Digite sua mensagem"
+        class="campo-form"
+        rows="4"
+        id="mensagem"
+      ></textarea>
+
+            <!-- Botão para enviar mensagem pelo WhatsApp -->
+      <button class="botao-form" type="submit">Enviar WhatsApp</button>
+    </form>
+  </section>
+
+    <!-- Link para o arquivo JavaScript externo -->
+  <script src="script.js"></script>
+</body>
+</html>
